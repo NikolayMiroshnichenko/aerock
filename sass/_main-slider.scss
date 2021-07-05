@@ -1,0 +1,110 @@
+.main-slider {
+  position: relative;
+
+  .main-slider__item {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &:nth-child(1) {
+      background-image: url(../images/main-slider/1.jpg);
+    }
+
+    &:nth-child(2) {
+      background-image: url(../images/main-slider/2.jpg);
+    }
+
+    &:nth-child(3) {
+      background-image: url(../images/main-slider/3.jpg);
+    }
+
+    &:nth-child(4) {
+      background-image: url(../images/main-slider/4.jpg);
+    }
+
+    &:nth-child(5) {
+      background-image: url(../images/main-slider/5.jpg);
+    }
+
+    &:nth-child(6) {
+      background-image: url(../images/main-slider/6.jpg);
+    }
+
+    &:nth-child(7) {
+      background-image: url(../images/main-slider/7.jpg);
+    }
+
+    &:nth-child(8) {
+      background-image: url(../images/main-slider/8.jpg);
+    }
+
+  }
+
+  .swiper-button-next {
+    right: 3.03em;
+  }
+
+  .swiper-button-prev {
+    left: 3.03em;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    &::after {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+
+  .main-slider__content {
+    display: flex;
+    align-items: center;
+    min-height: 800px;
+
+    .box {
+      position: relative;
+
+      .box-content {
+        position: relative;
+        padding: 20px 30px;
+        background-color: rgba(240, 77, 16, .7);
+        z-index: 2;
+
+        .box-title {
+          text-transform: uppercase;
+          font-weight: 900;
+          color: #ffffff;
+          font-size: 50px;
+          margin: 0;
+        }
+        .box-text {
+          font-weight: 400;
+          color: #ffffff;
+          font-size: 16px;
+        }
+      }
+      .box-before {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &::before {
+          position: absolute;
+          left: 0;
+          top: 0;
+          content: "";
+          width: 180px;
+          height: 220px;
+          border: 12px solid rgba(255,255,255,.7);
+          transform: translate(-20%,-50%);
+        }
+      }
+    }
+  }
+
+}

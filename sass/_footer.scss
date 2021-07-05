@@ -1,0 +1,134 @@
+.footer {
+  padding-top: 100px;
+}
+
+.footer-top {
+  display: flex;
+  padding-bottom: 40px;
+
+  .footer-top__item {
+    width: 33%;
+    border-right: 1px solid #cacaca;
+
+    &:last-child {
+      border-right: 1px solid transparent;
+    }
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer-contact {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    .footer-contact__item {
+      position: relative;
+      margin-bottom: 30px;
+      color: #6d6d6d;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.2;
+      padding-left: 50px;
+
+      .e-nexus__make {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 34px;
+        height: 34px;
+        background-color: #f04d12;
+        border-radius: 50%;
+
+        svg {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+
+  .footer-social {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .footer-social__item {
+      display: block;
+      width: 25px;
+      height: 25px;
+      font-size: 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-right: 4px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .footer-social__item.facebook {
+      background-image: url(../images/fb.svg);
+    }
+
+    .footer-social__item.instagram {
+      background-image: url(../images/in.svg);
+    }
+
+    .footer-social__item.youTube {
+      background-image: url(../images/yu.svg);
+    }
+  }
+
+  .footer-listLink {
+    list-style-type: none;
+    padding: 0 0 0 60px;
+
+    .footer-listLink__item {
+      margin-bottom: 10px;
+
+      a {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 500;
+        color: #6d6d6d;
+        transition: all 0.3s;
+
+        &:hover {
+            color: #f04d12;
+        }
+
+      }
+    }
+  }
+}
+.footer-bootom {
+    width: 100%;
+    padding: 40px 0;
+    border-top: 1px solid #cacaca;
+
+    .footer-bootom-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #6d6d6d;
+            font-weight: 400;
+
+            &:hover {
+                text-decoration: underline;
+                color: #f04d12;
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.benefits-wrapper {
+  position: relative;
+  .benefits {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 120px 0;
+
+    .benefits-first {
+      position: relative;
+      width: 550px;
+
+      .benefits-first__title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        z-index: 3;
+
+        .number {
+          font-size: 300px;
+          margin: 0;
+          line-height: 1;
+          font-weight: 700;
+          color: #fa5f2e;
+          padding-right: 40px;
+        }
+
+        .text {
+          position: relative;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 1;
+          color: #6d6d6d;
+          background-color: #ffffff;
+          z-index: 2;
+        }
+
+        .before {
+          position: absolute;
+          right: 60px;
+          top: 50%;
+          transform: translateY(-50%);
+
+          &:before {
+            position: absolute;
+            right: 0;
+            top: 0;
+            content: "";
+            width: 140px;
+            height: 120px;
+            border: 8px solid #fa5f2e;
+            transform: translate(-20%, -50%);
+            z-index: 1;
+          }
+        }
+      }
+
+      .benefits-first__img {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        left: -120px;
+        top: 180px;
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+
+    .benefits-second {
+      padding-top: 120px;
+      width: 570px;
+
+      .benefits-list {
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .benefits-list__item {
+        width: 30%;
+        margin-bottom: 40px;
+        text-align: center;
+
+        img {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .benefits-list__title {
+            font-size: 14px;
+            text-align: center;
+            color: #6d6d6d;
+        }
+      }
+    }
+  }
+  .benefits-blur-icon-second,
+  .benefits-blur-icon-first {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 80px;
+    height: 80px;
+    background-color: #f04d12;
+    filter: blur(45px);
+    border-radius: 100%;
+  }
+  .benefits-blur-icon-second {
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%,-50%);
+  }
+}
