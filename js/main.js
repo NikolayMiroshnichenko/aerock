@@ -1,8 +1,9 @@
-import { headerTemplate, footerTemplate, modalTemlate } from './components.js';
+import { headerTemplate, footerTemplate, modalTemlate, callTemlate } from './components.js';
 
 const header = document.querySelector('header');
 const footer = document.querySelector('footer');
 const modal = document.querySelector('.modal-wrapper');
+const call = document.querySelector('.js-call-block');
 
 
 function creatComponent(murkup, root) {
@@ -12,6 +13,7 @@ function creatComponent(murkup, root) {
 creatComponent(headerTemplate, header);
 creatComponent(footerTemplate, footer);
 creatComponent(modalTemlate, modal);
+creatComponent(callTemlate, call);
 
 
 

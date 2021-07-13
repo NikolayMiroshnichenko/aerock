@@ -41,7 +41,16 @@
     &:nth-child(8) {
       background-image: url(../images/main-slider/8.jpg);
     }
+  }
 
+  .main-slider__video {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .main-slider__video li h2,
+  .main-slider__video li p {
+    cursor: pointer;
   }
 
   .swiper-button-next {
@@ -71,8 +80,13 @@
       .box-content {
         position: relative;
         padding: 20px 30px;
-        background-color: rgba(240, 77, 16, .7);
+        background-color: rgba(240, 77, 16, 0.7);
         z-index: 2;
+
+        a {
+          text-decoration: none;
+          display: block;
+        }
 
         .box-title {
           text-transform: uppercase;
@@ -100,11 +114,10 @@
           content: "";
           width: 180px;
           height: 220px;
-          border: 12px solid rgba(255,255,255,.7);
-          transform: translate(-20%,-50%);
+          border: 12px solid rgba(255, 255, 255, 0.7);
+          transform: translate(-20%, -50%);
         }
       }
     }
   }
-
 }
