@@ -13,8 +13,6 @@ const refs = {
   linkYouTube: "https://www.youtube.com/channel/UCumgUm6iHKmJ_zZ0noGaCwA"
 }
 
-
-
 export const headerTemplate = `
 <div class="header-top container">
       <div class="header-top__logo">
@@ -55,7 +53,7 @@ export const headerTemplate = `
         <div class="header-catalog__contain">
           <nav class="header-catalog__list">
             <a href="./blocks-aeroc.html" class="header-link">Стінові блоки AEROC</a>
-            <a href="./locks-u.html" class="header-link">U-блоки AEROC</a>
+            <a href="./blocks-u.html" class="header-link">U-блоки AEROC</a>
             <a href="./thermal-insulation-panels.html" class="header-link">Теплоізоляція AEROC ENERGY</a>
             <a href="./fittings.html" class="header-link">Армовані вироби AEROC</a>
             <a href="./mixture.html" class="header-link">Сухі будівельні суміші AEROC</a>
