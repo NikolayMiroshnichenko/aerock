@@ -137,7 +137,7 @@ export const footerTemplate = `
     <form class="footer-form">
       <h2 class="footer-form__title">Зворотній зв'язок</h2>
       <input type="text" name="name" class="input" placeholder="Им'я">
-      <input type="text" name="name" class="input" placeholder="Телефон">
+      <input type="text" name="phone" class="input" placeholder="Телефон">
       <button type="submit" class="btn">Відправити</button>
     </form>
   </div>
@@ -155,8 +155,8 @@ export const modalTemlate = `<span class="modal-close">x</span>
 <div class="modal">
   <form class="modal-form">
     <h2 class="modal-form__title">Залиште заявку</h2>
-    <input type="text" class="input" placeholder="ім'я">
-    <input type="phone" class="input" placeholder="Телефон">
+    <input type="text" class="input" name="name" placeholder="ім'я">
+    <input type="phone" class="input" name="phone" placeholder="Телефон">
     <button type="submit" class="modal-form__submit">Відправити</button>
   </form>
 </div>`;

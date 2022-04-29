@@ -291,6 +291,14 @@
     .footer-top .footer-form {
         padding: 0;
     } 
+    .notification {
+        box-sizing: border-box;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+    }
 }
 @media (max-width: 400px) {
     .catalog-wrapper .catalog-title .catalog-title__block .catalog-title__before::before {
