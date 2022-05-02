@@ -1,11 +1,11 @@
 const refs = {
   telephoneFirst: {
-    link: 'tel:+380665832837',
-    text: '38 (066) 583-28-37'
+    link: 'tel:+380673009364',
+    text: '38 (067) 300-93-64'
   },
   telephoneSecond: {
-    link: 'tel:+380969991765',
-    text: '38 (096) 999-17-65'
+    link: 'tel:+380663009364',
+    text: '38 (066) 300-93-64'
   },
   maill: "info@aeroc.store",
   linkFb: "https://www.facebook.com/aeroc.ua",
@@ -120,16 +120,10 @@ export const footerTemplate = `
   <div class="footer-top__item">
     <ul class="footer-listLink">
       <li class="footer-listLink__item">
-        <a href="#">Головна</a>
+        <a href="index.html">Головна</a>
       </li>
       <li class="footer-listLink__item">
-        <a href="#">Про компанію</a>
-      </li>
-      <li class="footer-listLink__item">
-        <a href="#">Придбати</a>
-      </li>
-      <li class="footer-listLink__item">
-        <a href="#">Каталог товарів</a>
+        <a href="about-us.html">Про компанію</a>
       </li>
     </ul>
   </div>
@@ -144,7 +138,7 @@ export const footerTemplate = `
   </div>
   <div class="footer-bootom">
   <div class="footer-bootom-link container">
-    <a href="#">© AEROC 2006 - 2021 Всі права захищені.</a>
+    <a href="#">© AEROC 2006 - 2022 Всі права захищені.</a>
     <a href="#">Політика конфіденційності</a>
     <a href="#">Створення сайтів - студія Webkitchen</a>
   </div>
@@ -161,4 +155,4 @@ export const modalTemlate = `<span class="modal-close">x</span>
   </form>
 </div>`;
 
-export const callTemlate = `<a href="tel:+380665832837" class="call-link"><span></span></a>`;
+export const callTemlate = `<a href="tel:+380673009364" class="call-link"><span></span></a>`;

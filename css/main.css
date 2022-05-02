@@ -7,8 +7,6 @@ body {
 
 .container {
   width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -608,6 +606,7 @@ body {
 }
 
 .catalog-wrapper .content .content-slider {
+  overflow: hidden;
   width: 1010px;
 }
 
@@ -652,6 +651,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: #6d6d6d;
+  text-decoration: none !important;
 }
 
 .catalog-wrapper .content .content-slider .catalog-slider__img {
@@ -880,7 +880,7 @@ body {
 }
 
 .information-wrapper .information-list .item {
-  width: 32%;
+  width: 48%;
   background-color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;

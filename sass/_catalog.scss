@@ -106,6 +106,7 @@
     }
 
     .content-slider {
+      overflow: hidden;
       width: 1010px;
 
       .catalog-slider__item {
@@ -149,6 +150,7 @@
         font-size: 18px;
         font-weight: 600;
         color: #6d6d6d;
+        text-decoration: none !important;
       }
 
       .catalog-slider__img {
