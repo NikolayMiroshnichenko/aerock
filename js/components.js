@@ -28,11 +28,6 @@ export const headerTemplate = `
           <a href="${refs.telephoneFirst.link} " class="header-number__item">${refs.telephoneFirst.text}</a>
           <a href="${refs.telephoneSecond.link}" class="header-number__item">${refs.telephoneSecond.text}</a>
         </div>
-        <div class="header-social">
-          <a href="${refs.linkFb}" class="header-social__item facebook" target="_blank">facebook</a>
-          <a href="${refs.linkInst}" class="header-social__item instagram" target="_blank">instagram</a>
-          <a href="${refs.linkYouTube}" class="header-social__item youTube" target="_blank">YouTube</a>
-        </div>
       </div>
     </div>
     <div class="header-bottom">
@@ -111,21 +106,7 @@ export const footerTemplate = `
         ${refs.maill}
       </li>
     </ul>
-    <div class="footer-social">
-      <a href="${refs.linkFb}" class="footer-social__item facebook" target="blank">facebook</a>
-      <a href="${refs.linkInst}" class="footer-social__item instagram" target="blank">instagram</a>
-      <a href="${refs.linkYouTube}" class="footer-social__item youTube" target="blank">YouTube</a>
-    </div>
-  </div>
-  <div class="footer-top__item">
-    <ul class="footer-listLink">
-      <li class="footer-listLink__item">
-        <a href="index.html">Головна</a>
-      </li>
-      <li class="footer-listLink__item">
-        <a href="about-us.html">Про компанію</a>
-      </li>
-    </ul>
+  
   </div>
   <div class="footer-top__item">
     <form class="footer-form">
@@ -156,3 +137,16 @@ export const modalTemlate = `<span class="modal-close">x</span>
 </div>`;
 
 export const callTemlate = `<a href="tel:+380673009364" class="call-link"><span></span></a>`;
+
+
+{/* <div class="footer-social">
+<a href="${refs.linkFb}" class="footer-social__item facebook" target="blank">facebook</a>
+<a href="${refs.linkInst}" class="footer-social__item instagram" target="blank">instagram</a>
+<a href="${refs.linkYouTube}" class="footer-social__item youTube" target="blank">YouTube</a>
+</div> */}
+
+{/* <div class="header-social">
+<a href="${refs.linkFb}" class="header-social__item facebook" target="_blank">facebook</a>
+<a href="${refs.linkInst}" class="header-social__item instagram" target="_blank">instagram</a>
+<a href="${refs.linkYouTube}" class="header-social__item youTube" target="_blank">YouTube</a>
+</div> */}
